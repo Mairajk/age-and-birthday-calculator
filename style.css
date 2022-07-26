@@ -1,0 +1,49 @@
+body {
+    background-image: url(./celebratios.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+         background-repeat :no-repeat;
+    /* position: fixed; */
+}
+
+#age {
+    color: greenyellow;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#main {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, 0.5);
+    /* filter: blur(100px); */
+    /* -webkit-filter: blur(8px); */
+    padding: 50px;
+    text-align: center;
+    border-radius: 100%;
+    
+    
+}
+
+#ageH {
+    color: aliceblue;
+}
+
+#birthdayH,
+#bdFooter{
+    color: aliceblue;
+}
+
+#birthday {
+    color: greenyellow;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* 
+#div2 {
+    width: 50%;
+    margin: 0 auto;
+
+} */
