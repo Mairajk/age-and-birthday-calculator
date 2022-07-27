@@ -1,9 +1,8 @@
 body {
     background-image: url(./celebratios.jpg);
     background-size: cover;
-    background-attachment: fixed; 
-         background-repeat :no-repeat;
-    /* position: fixed; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 #age {
@@ -16,14 +15,11 @@ body {
 #main {
     width: 50%;
     margin: 0 auto;
-    background-color: rgba(255, 0, 0, 0.5);
-    /* filter: blur(100px); */
-    /* -webkit-filter: blur(8px); */
+    background-color: rgba(255, 0, 0, 0.4);
     padding: 50px;
     text-align: center;
-    border-radius: 100%;
-    
-    
+    border-radius: 100px;
+    margin-top: 200px;
 }
 
 #ageH {
@@ -31,7 +27,7 @@ body {
 }
 
 #birthdayH,
-#bdFooter{
+#bdFooter {
     color: aliceblue;
 }
 
@@ -41,9 +37,10 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-/* 
-#div2 {
-    width: 50%;
-    margin: 0 auto;
 
-} */
+.sub{
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+}
