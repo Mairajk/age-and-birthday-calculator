@@ -28,6 +28,8 @@ function start() {
         currentAge()
     }, 1000);
 
+    document.querySelector(`#main`).style.visibility = `visible` ;
+
 }
 
 
